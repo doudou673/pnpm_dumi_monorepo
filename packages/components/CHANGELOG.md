@@ -1,5 +1,12 @@
 # @wode673/components
 
+## 1.0.1
+
+### Patch Changes
+
+- fbda2c6: test changeset
+- fbda2c6: test changesets
+
 ## 1.0.1-beta.1
 
 ### Patch Changes

@@ -1,6 +1,6 @@
 {
   "name": "@wode673/components",
-  "version": "1.0.1-beta.1",
+  "version": "1.0.1",
   "description": "组件库",
   "main": "dist/index.js",
   "scripts": {
