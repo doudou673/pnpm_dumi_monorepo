@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@lzx/utils": "workspace:^1.0.0"
+    "@wode673/utils": "workspace:^1.0.0"
   },
   "publishConfig": {
     "access": "public"

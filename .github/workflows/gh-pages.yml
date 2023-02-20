@@ -15,9 +15,15 @@ jobs:
         uses: pnpm/action-setup@v2
         with:
           version: 7
-      - run: pnpm install
+      - run: pnpm install --no-frozen-lockfile --ignore-scripts
       # 文档编译命令
       - run: pnpm run build
+      - name: Create Release Pull Request
+        uses: changesets/action@v1
+        with:
+          version: pnpm changeset version
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
