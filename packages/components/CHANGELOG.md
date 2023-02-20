@@ -1,5 +1,11 @@
 # @wode673/components
 
+## 1.0.2
+
+### Patch Changes
+
+- fixbug
+
 ## 1.0.1
 
 ### Patch Changes
