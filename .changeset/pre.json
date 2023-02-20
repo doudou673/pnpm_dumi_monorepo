@@ -1,0 +1,10 @@
+{
+  "mode": "exit",
+  "tag": "beta",
+  "initialVersions": {
+    "@wode673/components": "1.0.0",
+    "@wode673/hooks": "1.0.0",
+    "@wode673/utils": "1.0.0"
+  },
+  "changesets": ["dry-swans-cough", "real-months-walk"]
+}
