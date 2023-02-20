@@ -1,5 +1,5 @@
 import React, { type FC } from 'react';
-import { Add } from '@lzx/utils';
+import { Add } from '@wode673/utils';
 
 const Foo: FC<{ title: string }> = (props) => (
   <div>
