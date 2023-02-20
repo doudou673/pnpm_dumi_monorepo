@@ -1,0 +1,35 @@
+{
+  "name": "dumi-monorepo",
+  "version": "0.0.1",
+  "description": "test",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "dumi dev",
+    "build": "dumi build",
+    "prepare": "husky install && dumi setup"
+  },
+  "authors": [],
+  "license": "MIT",
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "lint-staged": {
+    "*.{md,json}": [
+      "prettier --write --no-error-on-unmatched-pattern"
+    ]
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.26.0",
+    "@commitlint/cli": "^17.1.2",
+    "@commitlint/config-conventional": "^17.1.0",
+    "dumi": "^2.0.2",
+    "father": "^4.1.5",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "prettier": "^2.7.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

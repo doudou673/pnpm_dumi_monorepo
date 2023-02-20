@@ -1,0 +1,15 @@
+{
+  "name": "@lzx/components",
+  "version": "1.0.0",
+  "description": "组件库",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "father build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@lzx/utils": "workspace:^1.0.0"
+  }
+}
