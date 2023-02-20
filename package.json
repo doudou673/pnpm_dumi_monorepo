@@ -6,7 +6,8 @@
     "start": "npm run dev",
     "dev": "dumi dev",
     "build": "dumi build",
-    "prepare": "husky install && dumi setup"
+    "prepare": "husky install && dumi setup",
+    "deploy": "gh-pages -d dist"
   },
   "authors": [],
   "license": "MIT",
@@ -26,6 +27,7 @@
     "@commitlint/config-conventional": "^17.1.0",
     "dumi": "^2.0.2",
     "father": "^4.1.5",
+    "gh-pages": "^5.0.0",
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
     "prettier": "^2.7.1",

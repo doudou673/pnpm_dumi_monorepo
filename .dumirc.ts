@@ -4,6 +4,8 @@ export default defineConfig({
   themeConfig: {
     name: 'dumi-monorepo',
   },
+  base: '/pnpm_dumi_monorepo',
+  publicPath: '/pnpm_dumi_monorepo/',
   resolve: {
     atomDirs: [{ type: 'component', dir: 'packages/components/src' }],
   },
