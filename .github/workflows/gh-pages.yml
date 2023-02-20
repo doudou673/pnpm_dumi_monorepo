@@ -1,0 +1,21 @@
+name: github pages
+
+on:
+  push:
+    branches:
+      - master # default branch
+
+jobs:
+  deploy:
+    runs-on: ubuntu-20.04(ubuntu-latest)
+    steps:
+      - uses: actions/checkout@v2
+      - run: pnpm install
+      # 文档编译命令
+      - run: pnpm run build
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          # 文档目录
+          publish_dir: ./dist
